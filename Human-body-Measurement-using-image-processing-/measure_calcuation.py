@@ -22,7 +22,7 @@ def chest(ratio,point1,point2,factor):
     distance = math.sqrt(((point1[0] - point2[0]) ** 2) + (point1[1] - point2[1]) ** 2)
     x=distance*ratio
     y=x*2
-    return y+factor
+    return (y+factor)*2
 
 def full_body_detection(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
