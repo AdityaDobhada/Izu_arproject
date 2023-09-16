@@ -55,7 +55,6 @@ def find_radius(point1,point2,ratio):
     r=math.sqrt(((point1[0] - point2[0]) ** 2) + (point1[1] - point2[1]) ** 2)
     r=r*ratio
     circum_ference=3.14*r
-    circum_ference=circum_ference/2
     return circum_ference
 
 def check_y_coordinate(ctn,center):
